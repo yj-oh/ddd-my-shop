@@ -1,10 +1,10 @@
-package com.yjworld.boilerplate.gradle.springboot;
+package com.yjworld.myshop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootGradleBoilerplateApplicationTests {
+class MyShopTests {
 
     @Test
     void contextLoads() {

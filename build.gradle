@@ -1,14 +1,12 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '2.5.6'
-    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'org.springframework.boot' version '2.7.2'
+    id 'io.spring.dependency-management' version '1.0.12.RELEASE'
 }
 
-group 'com.yjworld.springboot-gradle-boilerplate'
-version '1.0-SNAPSHOT'
-java {
-    sourceCompatibility = JavaVersion.VERSION_11
-}
+group = 'com.yjworld'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '18'
 
 configurations {
     compileOnly {

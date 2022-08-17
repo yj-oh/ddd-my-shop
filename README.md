@@ -1,1 +1,1 @@
-# springboot-gradle-boilerplate
+# ddd-my-shop
